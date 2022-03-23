@@ -14,6 +14,7 @@ module.exports = () => {
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
+      publicPath: ""
     },
     // Add and configure workbox plugins for a service worker and manifest file. (DONE)
     plugins: [
@@ -35,7 +36,7 @@ module.exports = () => {
         description: 'Never forget your contacts!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: '/',
+        // start_url: '/',
         publicPath: '/',
         icons: [
           {
