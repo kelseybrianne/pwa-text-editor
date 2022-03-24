@@ -2,6 +2,10 @@
 
 ## Description
 
+This application is a basic text editor that runs in the browser and meets all PWA criteria. It is able to function offline and has installation capabilities.
+
+![Text editor screenshot](client/src/images/text-editor-screenshot.png)
+
 ## User Story
 
 ```
