@@ -16,7 +16,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
       publicPath: ""
     },
-    // Add and configure workbox plugins for a service worker and manifest file. (DONE)
+    // Add and configure workbox plugins for a service worker and manifest file.
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
@@ -49,7 +49,7 @@ module.exports = () => {
 
     ],
     
-    // Add CSS loaders and babel to webpack. (DONE)
+    // Add CSS loaders and babel to webpack.
     module: {
       rules: [
         {
